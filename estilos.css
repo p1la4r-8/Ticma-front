@@ -1,0 +1,387 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Estilo para el encabezado */
+  header {
+    background-color: #3e7a89;
+    color: #f4f4f6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .custom-jumbotron {
+    background-color: #6badf0;
+    color: #fff;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  /* Estilo para la sección Acerca de */
+  section.about {
+    margin: 1.5rem;
+  }
+  
+  .about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .about p {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para la sección Experiencia */
+  section.experience {
+    margin: 1.5rem;
+  }
+  
+  .experience h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .experience .job {
+    margin-bottom: 1.5rem;
+  }
+  
+  .job h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .job p {
+    margin-bottom: 0.5rem;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 20px;
+    width: 300px;
+    height: 200px;
+    transition: all 0.3s ease;
+}
+  
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 18px;
+}
+  /* Estilo para la sección Educación */
+  section.education {
+    margin: 1.5rem;
+  }
+  
+  .education h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .education .degree {
+    margin-bottom: 1.5rem;
+  }
+  
+  .degree h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .degree h4 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .degree p {
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Estilo para la sección Habilidades */
+  section.skills {
+    margin: 1.5rem;
+  }
+  
+  .skills h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .skills ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .skills li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .skills .skill {
+    display: flex;
+    align-items: center;
+  }
+  
+  .skill-name {
+    width: 200px;
+  }
+  
+  .skill-bar {
+    flex: 1;
+    height: 10px;
+    margin-left: 1rem;
+    background-color: #ddd;
+  }
+  
+  .skill-level {
+    font-size: 0.8rem;
+    font-weight: bold;
+    margin-left: 1rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  section {
+    margin: 0 auto;
+    width: 80%; 
+  }
+  
+  /* Estilo para el enlace a GitHub */
+  .github-link {
+    margin: 1.5rem;
+  }
+  
+  .github-link a {
+    background-color: #333;
+    color: #fff;
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  .github-link a:hover {
+    background-color: #444;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background-color: #f8f9fa;
+  }
+
+  #header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+  }
+
+  #header h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  #header img {
+    max-height: 50px;
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .social-links a {
+    color: #fff;
+    margin-left: 20px;
+  }
+
+  #about {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #about h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  #about img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+
+  #about h3 {
+    margin-top: 0;
+  }
+
+  #experience {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #experience h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .job {
+    margin-bottom: 20px;
+  }
+
+  .job h3 {
+    margin-top: 0;
+  }
+
+  .job p {
+    margin-bottom: 0;
+  }
+
+  .job span {
+    font-weight: bold;
+  }
+
+  #education {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #education h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .school {
+    margin-bottom: 20px;
+  }
+
+  .school-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  #skills {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #skills h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .skill {
+    margin-bottom: 10px;
+  }
+
+  .skill span {
+    display: inline-block;
+    width: 120px;
+    font-weight: bold;
+  }
+
+  .skill .progress {
+    height: 10px;
+    margin-bottom: 0;
+  }
+
+  .skill .progress-bar {
+    height: 10px;
+  }
+
+  #projects {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  #projects h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .projects {
+    margin-top: 50px;
+  }
+  
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+    color: #212529;
+  }
+  
+  .table td,
+  .table th {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+    text-align: left;
+  }
+  
+  .table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+  }
+  
+  footer {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #6c757d;
+  }
+
+  #boton {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #boton:hover {
+    background-color: lightblue;
+  }
+  
